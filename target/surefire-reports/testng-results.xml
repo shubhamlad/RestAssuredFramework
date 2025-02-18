@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-18T19:18:48 IST" name="Suite" finished-at="2025-02-18T19:18:57 IST" duration-ms="9088">
+    <groups>
+    </groups>
+    <test started-at="2025-02-18T19:18:48 IST" name="Test" finished-at="2025-02-18T19:18:57 IST" duration-ms="9088">
+      <class name="api.test.StudentTestsDataDriven">
+        <test-method is-config="true" signature="setUpData()[pri:0, instance:api.test.StudentTestsDataDriven@7f552bd3]" started-at="2025-02-18T19:18:49 IST" name="setUpData" finished-at="2025-02-18T19:18:49 IST" duration-ms="829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpData -->
+        <test-method signature="testPostUser(java.util.Hashtable)[pri:1, instance:api.test.StudentTestsDataDriven@7f552bd3]" started-at="2025-02-18T19:18:51 IST" name="testPostUser" data-provider="data" finished-at="2025-02-18T19:18:55 IST" duration-ms="4378" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{age=21, subjects=history,bio,chem, name=John, grade=8t, id=1001.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testPostUser(java.util.Hashtable)[pri:1, instance:api.test.StudentTestsDataDriven@7f552bd3]" started-at="2025-02-18T19:18:55 IST" name="testPostUser" data-provider="data" finished-at="2025-02-18T19:18:55 IST" duration-ms="36" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{age=22, subjects=math,scienr, name=sina, grade=9th, id=1002.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testPostUser(java.util.Hashtable)[pri:1, instance:api.test.StudentTestsDataDriven@7f552bd3]" started-at="2025-02-18T19:18:55 IST" name="testPostUser" data-provider="data" finished-at="2025-02-18T19:18:55 IST" duration-ms="35" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{age=18, subjects=bio,math, name=ket, grade=10t, id=1003.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testPostUser(java.util.Hashtable)[pri:1, instance:api.test.StudentTestsDataDriven@7f552bd3]" started-at="2025-02-18T19:18:55 IST" name="testPostUser" data-provider="data" finished-at="2025-02-18T19:18:55 IST" duration-ms="93" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{age=15, subjects=physics,eco, name=nss, grade=12rt, id=1004.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testGetUserById(java.util.Hashtable)[pri:2, instance:api.test.StudentTestsDataDriven@7f552bd3]" started-at="2025-02-18T19:18:56 IST" name="testGetUserById" data-provider="data" finished-at="2025-02-18T19:18:56 IST" duration-ms="106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{age=21, subjects=history,bio,chem, name=John, grade=8t, id=1001.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserById -->
+        <test-method signature="testGetUserById(java.util.Hashtable)[pri:2, instance:api.test.StudentTestsDataDriven@7f552bd3]" started-at="2025-02-18T19:18:56 IST" name="testGetUserById" data-provider="data" finished-at="2025-02-18T19:18:56 IST" duration-ms="39" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{age=22, subjects=math,scienr, name=sina, grade=9th, id=1002.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserById -->
+        <test-method signature="testGetUserById(java.util.Hashtable)[pri:2, instance:api.test.StudentTestsDataDriven@7f552bd3]" started-at="2025-02-18T19:18:56 IST" name="testGetUserById" data-provider="data" finished-at="2025-02-18T19:18:56 IST" duration-ms="38" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{age=18, subjects=bio,math, name=ket, grade=10t, id=1003.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserById -->
+        <test-method signature="testGetUserById(java.util.Hashtable)[pri:2, instance:api.test.StudentTestsDataDriven@7f552bd3]" started-at="2025-02-18T19:18:56 IST" name="testGetUserById" data-provider="data" finished-at="2025-02-18T19:18:56 IST" duration-ms="33" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{age=15, subjects=physics,eco, name=nss, grade=12rt, id=1004.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserById -->
+        <test-method signature="testDeleteStudentById(java.util.Hashtable)[pri:4, instance:api.test.StudentTestsDataDriven@7f552bd3]" started-at="2025-02-18T19:18:56 IST" name="testDeleteStudentById" data-provider="data" finished-at="2025-02-18T19:18:56 IST" duration-ms="142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{age=21, subjects=history,bio,chem, name=John, grade=8t, id=1001.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteStudentById -->
+        <test-method signature="testDeleteStudentById(java.util.Hashtable)[pri:4, instance:api.test.StudentTestsDataDriven@7f552bd3]" started-at="2025-02-18T19:18:56 IST" name="testDeleteStudentById" data-provider="data" finished-at="2025-02-18T19:18:56 IST" duration-ms="147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{age=22, subjects=math,scienr, name=sina, grade=9th, id=1002.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteStudentById -->
+        <test-method signature="testDeleteStudentById(java.util.Hashtable)[pri:4, instance:api.test.StudentTestsDataDriven@7f552bd3]" started-at="2025-02-18T19:18:56 IST" name="testDeleteStudentById" data-provider="data" finished-at="2025-02-18T19:18:56 IST" duration-ms="36" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{age=18, subjects=bio,math, name=ket, grade=10t, id=1003.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteStudentById -->
+        <test-method signature="testDeleteStudentById(java.util.Hashtable)[pri:4, instance:api.test.StudentTestsDataDriven@7f552bd3]" started-at="2025-02-18T19:18:56 IST" name="testDeleteStudentById" data-provider="data" finished-at="2025-02-18T19:18:56 IST" duration-ms="121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{age=15, subjects=physics,eco, name=nss, grade=12rt, id=1004.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteStudentById -->
+      </class> <!-- api.test.StudentTestsDataDriven -->
+      <class name="api.test.StudentTests">
+        <test-method is-config="true" signature="setUpData()[pri:0, instance:api.test.StudentTests@6af93788]" started-at="2025-02-18T19:18:56 IST" name="setUpData" finished-at="2025-02-18T19:18:57 IST" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpData -->
+        <test-method signature="testPostUser()[pri:1, instance:api.test.StudentTests@6af93788]" started-at="2025-02-18T19:18:57 IST" name="testPostUser" finished-at="2025-02-18T19:18:57 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testGetUserById()[pri:2, instance:api.test.StudentTests@6af93788]" started-at="2025-02-18T19:18:57 IST" name="testGetUserById" finished-at="2025-02-18T19:18:57 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserById -->
+        <test-method signature="testUpdateUserById()[pri:3, instance:api.test.StudentTests@6af93788]" started-at="2025-02-18T19:18:57 IST" name="testUpdateUserById" finished-at="2025-02-18T19:18:57 IST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserById -->
+        <test-method signature="testDeleteStudentById()[pri:4, instance:api.test.StudentTests@6af93788]" started-at="2025-02-18T19:18:57 IST" name="testDeleteStudentById" finished-at="2025-02-18T19:18:57 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteStudentById -->
+      </class> <!-- api.test.StudentTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

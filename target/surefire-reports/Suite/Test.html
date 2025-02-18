@@ -1,0 +1,159 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Feb 18 19:18:48 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>9 seconds (9088 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='api.test.StudentTestsDataDriven.testGetUserById()'><b>testGetUserById</b><br>Test class: api.test.StudentTestsDataDriven<br>Parameters: {age=22, subjects=math,scienr, name=sina, grade=9th, id=1002.0}</td>
+<td></td>
+<td>0</td>
+<td>api.test.StudentTestsDataDriven@7f552bd3</td></tr>
+<tr>
+<td title='api.test.StudentTestsDataDriven.testPostUser()'><b>testPostUser</b><br>Test class: api.test.StudentTestsDataDriven<br>Parameters: {age=15, subjects=physics,eco, name=nss, grade=12rt, id=1004.0}</td>
+<td></td>
+<td>0</td>
+<td>api.test.StudentTestsDataDriven@7f552bd3</td></tr>
+<tr>
+<td title='api.test.StudentTestsDataDriven.testDeleteStudentById()'><b>testDeleteStudentById</b><br>Test class: api.test.StudentTestsDataDriven<br>Parameters: {age=22, subjects=math,scienr, name=sina, grade=9th, id=1002.0}</td>
+<td></td>
+<td>0</td>
+<td>api.test.StudentTestsDataDriven@7f552bd3</td></tr>
+<tr>
+<td title='api.test.StudentTests.testUpdateUserById()'><b>testUpdateUserById</b><br>Test class: api.test.StudentTests</td>
+<td></td>
+<td>0</td>
+<td>api.test.StudentTests@6af93788</td></tr>
+<tr>
+<td title='api.test.StudentTests.testDeleteStudentById()'><b>testDeleteStudentById</b><br>Test class: api.test.StudentTests</td>
+<td></td>
+<td>0</td>
+<td>api.test.StudentTests@6af93788</td></tr>
+<tr>
+<td title='api.test.StudentTestsDataDriven.testGetUserById()'><b>testGetUserById</b><br>Test class: api.test.StudentTestsDataDriven<br>Parameters: {age=18, subjects=bio,math, name=ket, grade=10t, id=1003.0}</td>
+<td></td>
+<td>0</td>
+<td>api.test.StudentTestsDataDriven@7f552bd3</td></tr>
+<tr>
+<td title='api.test.StudentTestsDataDriven.testPostUser()'><b>testPostUser</b><br>Test class: api.test.StudentTestsDataDriven<br>Parameters: {age=18, subjects=bio,math, name=ket, grade=10t, id=1003.0}</td>
+<td></td>
+<td>0</td>
+<td>api.test.StudentTestsDataDriven@7f552bd3</td></tr>
+<tr>
+<td title='api.test.StudentTestsDataDriven.testGetUserById()'><b>testGetUserById</b><br>Test class: api.test.StudentTestsDataDriven<br>Parameters: {age=21, subjects=history,bio,chem, name=John, grade=8t, id=1001.0}</td>
+<td></td>
+<td>0</td>
+<td>api.test.StudentTestsDataDriven@7f552bd3</td></tr>
+<tr>
+<td title='api.test.StudentTestsDataDriven.testDeleteStudentById()'><b>testDeleteStudentById</b><br>Test class: api.test.StudentTestsDataDriven<br>Parameters: {age=18, subjects=bio,math, name=ket, grade=10t, id=1003.0}</td>
+<td></td>
+<td>0</td>
+<td>api.test.StudentTestsDataDriven@7f552bd3</td></tr>
+<tr>
+<td title='api.test.StudentTestsDataDriven.testPostUser()'><b>testPostUser</b><br>Test class: api.test.StudentTestsDataDriven<br>Parameters: {age=21, subjects=history,bio,chem, name=John, grade=8t, id=1001.0}</td>
+<td></td>
+<td>4</td>
+<td>api.test.StudentTestsDataDriven@7f552bd3</td></tr>
+<tr>
+<td title='api.test.StudentTestsDataDriven.testGetUserById()'><b>testGetUserById</b><br>Test class: api.test.StudentTestsDataDriven<br>Parameters: {age=15, subjects=physics,eco, name=nss, grade=12rt, id=1004.0}</td>
+<td></td>
+<td>0</td>
+<td>api.test.StudentTestsDataDriven@7f552bd3</td></tr>
+<tr>
+<td title='api.test.StudentTests.testPostUser()'><b>testPostUser</b><br>Test class: api.test.StudentTests</td>
+<td></td>
+<td>0</td>
+<td>api.test.StudentTests@6af93788</td></tr>
+<tr>
+<td title='api.test.StudentTestsDataDriven.testDeleteStudentById()'><b>testDeleteStudentById</b><br>Test class: api.test.StudentTestsDataDriven<br>Parameters: {age=21, subjects=history,bio,chem, name=John, grade=8t, id=1001.0}</td>
+<td></td>
+<td>0</td>
+<td>api.test.StudentTestsDataDriven@7f552bd3</td></tr>
+<tr>
+<td title='api.test.StudentTests.testGetUserById()'><b>testGetUserById</b><br>Test class: api.test.StudentTests</td>
+<td></td>
+<td>0</td>
+<td>api.test.StudentTests@6af93788</td></tr>
+<tr>
+<td title='api.test.StudentTestsDataDriven.testDeleteStudentById()'><b>testDeleteStudentById</b><br>Test class: api.test.StudentTestsDataDriven<br>Parameters: {age=15, subjects=physics,eco, name=nss, grade=12rt, id=1004.0}</td>
+<td></td>
+<td>0</td>
+<td>api.test.StudentTestsDataDriven@7f552bd3</td></tr>
+<tr>
+<td title='api.test.StudentTestsDataDriven.testPostUser()'><b>testPostUser</b><br>Test class: api.test.StudentTestsDataDriven<br>Parameters: {age=22, subjects=math,scienr, name=sina, grade=9th, id=1002.0}</td>
+<td></td>
+<td>0</td>
+<td>api.test.StudentTestsDataDriven@7f552bd3</td></tr>
+</table><p>
+</body>
+</html>
